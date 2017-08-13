@@ -1,0 +1,29 @@
+{
+  "name": "node-restify-postgres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandriv/node-restify-postgres.git"
+  },
+  "author": "Wojciech Cichoradzki @mandriv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mandriv/node-restify-postgres/issues"
+  },
+  "homepage": "https://github.com/mandriv/node-restify-postgres#readme",
+  "dependencies": {
+    "pg-promise": "^6.3.8",
+    "restify": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
