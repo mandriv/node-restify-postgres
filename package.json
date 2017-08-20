@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon src/server.js --exec babel-node --presets es2015,stage-2",
-    "build": "babel src -d dist",
-    "serve": "node dist/index.js",
+    "build": "babel src -d dist --copy-files",
+    "serve": "nodemon dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
